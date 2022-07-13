@@ -1,0 +1,9 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": ["vite.config.*", "vitest.config.*", "vite/**/*", "cypress.config.*"],
+  "compilerOptions": {
+    "composite": true,
+    "typeRoots": ["./node_modules/@types/", "./types"],
+    "types": ["node", "vite/client",  "@intlify/vite-plugin-vue-i18n/client"]
+  }
+}
