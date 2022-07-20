@@ -8,7 +8,6 @@ import "@/style/sky/css-vars.css";
 import "@/style/dark/css-vars.css";
 import App from "./App.vue";
 
-
 const app = createApp(App);
 setupPlugins(app);
 app.mount("#app");

@@ -14,6 +14,7 @@ export default defineConfig(({ command, mode }) => {
       // 配置导入的路径别名，注意在 tsconfig 要再配置一次
       alias: {
         "@": fileURLToPath(new URL("./src", import.meta.url)),
+        "#": fileURLToPath(new URL("./types", import.meta.url)),
       },
     },
     server: {

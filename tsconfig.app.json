@@ -6,9 +6,10 @@
     "composite": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "#/*": ["./types/*"]
     },
     "typeRoots": ["./node_modules/@types/", "./types"],
-    "types": ["node", "vite/client", "element-plus/global", "unplugin-icons/types/vue"],
+    "types": ["node", "vite/client", "element-plus/global", "unplugin-icons/types/vue", "@intlify/vite-plugin-vue-i18n/client"],
   }
 }
